@@ -1,0 +1,16 @@
+.img {
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+  }
+  
+  .error-txt {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+  }
+  .error-txt h1 {
+    color: red;
+  }
+  .error-txt span {
+    font-weight: 900;
+  }
