@@ -9,7 +9,9 @@ const Header = () => {
   const userEmail = loggedInUser.email;
 
     return (
+      
         <Navbar bg="dark" variant="dark" expand="lg">
+          <h1>City Rider</h1>
       <Navbar.Brand as={Link} to="/home">Let's Go Home</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -17,6 +19,7 @@ const Header = () => {
         <Nav.Link as={Link} to="/home">
           Home
         </Nav.Link>
+        
         <Nav.Link as={Link} to="/destination/:name">
           Destination
         </Nav.Link>
@@ -33,6 +36,7 @@ const Header = () => {
             <Button as={Link} to="/login" variant="warning">
               Log In
             </Button>
+            <br/>
             <Button className="ml-3" as={Link} to="/signup" variant="info">
               Sign Up
             </Button>
